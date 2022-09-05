@@ -13,8 +13,23 @@
 body {
   height: 100vh;
   background: url("~/src/assets/bg.jpg") no-repeat;
+  background-color: var(--body);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+:root {
+  --primary: #fff;
+  --body: #fff;
+  --text-menu: #fff;
+  --text-body: #4b4b4b;
+}
+
+:root .dark-theme {
+  --primary: #000;
+  --body: #4b4b4b;
+  --text-menu: #fff;
+  --text-body: #fff;
 }
